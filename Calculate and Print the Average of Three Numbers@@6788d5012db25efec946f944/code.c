@@ -9,7 +9,7 @@ int main() {
   scanf("%f %f %f",&a,&b,&c);
     d=(a+b+c)/3;
     printf("Average: %.2f"d);
-    
+
 
 
 }
