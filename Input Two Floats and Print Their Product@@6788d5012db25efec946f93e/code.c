@@ -4,7 +4,7 @@ char* welcome() {
 }
 
 int main() {
-    float a,b,c,d;
+    float a,b,c;
     scanf("%f %f",&a,&b);
     c=a*b;
     printf("Product: %f",c);
