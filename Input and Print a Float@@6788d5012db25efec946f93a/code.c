@@ -1,5 +1,5 @@
 #inculde<stdio.h>
-void main(){
+main(){
 float m;
 scanf("%f",&m);
 printf("You entered: %f",m);
