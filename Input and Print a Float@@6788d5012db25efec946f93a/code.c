@@ -1,4 +1,4 @@
-#inculde<stdio.h>
+#inculde <stdio.h>
 main(){
 float m;
 scanf("%f",&m);
