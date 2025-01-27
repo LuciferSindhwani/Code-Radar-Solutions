@@ -1,10 +1,10 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+#include<stdbool.h>
 
 int main() {
-    printf("%s", welcome());
-    return 0;
+    int a,b;
+    bool t;
+    scanf("%d %d",&a,&b);
+    t=a>b;
+    return t;
 }
