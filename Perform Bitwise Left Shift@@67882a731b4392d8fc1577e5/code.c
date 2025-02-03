@@ -8,7 +8,7 @@ int main() {
     int a,b;
 
     scanf("%d %d",&a,&b);
-    printf("%u",b>>a);
+    printf("%u",a>>b);
 
     return 0;
 }
