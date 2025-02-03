@@ -5,6 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
-    return 0;
+    int a,b;
+    if(a%5==0&&a%11==0){
+        printf("Divisible");
+    }
+    else{printf("Not Divisible")}
 }
