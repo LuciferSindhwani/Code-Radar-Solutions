@@ -6,7 +6,7 @@ int main() {
 
     scanf("%d %d %*c%c", &a, &b, &c);  // Skips newline before reading char
 
-    if (c == '+') {
+    if (c == '+ ') {
         printf("%d", a + b);
     } 
     else if (c == '-') {
