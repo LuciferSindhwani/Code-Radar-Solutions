@@ -4,7 +4,7 @@ int main() {
     int a, b;
     char c;
 
-    scanf("%d %d %*c%c", &a, &b, &c);  // Skips newline before reading char
+    scanf("%d %d %c", &a, &b, &c);  // Skips newline before reading char
 
     if (c == '+') {
         printf("%d", a + b);
