@@ -23,7 +23,7 @@ int main() {
             break;
 
         case 2:  // February
-            printf("28 or 29"); // Can be 29 in a leap year
+            printf("28"); // Can be 29 in a leap year
             break;
 
         default:
