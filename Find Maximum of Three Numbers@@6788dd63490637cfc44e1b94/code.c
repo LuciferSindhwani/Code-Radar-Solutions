@@ -14,5 +14,5 @@ int main(){
             continue();
         }
     }
-    rteurn 0; 
+    return 0; 
 }
