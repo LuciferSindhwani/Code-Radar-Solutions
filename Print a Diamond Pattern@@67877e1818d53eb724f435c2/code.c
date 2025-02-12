@@ -11,4 +11,10 @@ int main(){
         }
         printf("\n");
     }
+    for(i=0;i<=a-1;i++){
+        for(j=0;j<a-1;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
 }
