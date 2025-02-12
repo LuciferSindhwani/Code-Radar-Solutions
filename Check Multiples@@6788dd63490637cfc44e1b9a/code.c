@@ -1,8 +1,9 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-int a,b;
-if(a%b==0){
+int a,b,c;
+c=a%b;
+if(c==0){
     printf("Yes");
 
 }
