@@ -11,8 +11,8 @@ int main(){
         }
         printf("\n");
     }
-    for(i=0;i<=a-1;i++){
-        for(j=0;j<a-1;j++){
+    for(int z=0;z<=a-1;z++){
+        for(int b=0;b<z;b++){
             printf("*");
         }
         printf("\n");
