@@ -19,9 +19,8 @@ int main(){
     else if (a<60){
         printf("E");
     }
-    else{
-        continue;
-    }
+    
+    
     return 0;
 
 }
