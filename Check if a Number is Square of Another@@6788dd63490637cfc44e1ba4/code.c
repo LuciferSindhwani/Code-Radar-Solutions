@@ -4,7 +4,7 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if (b==sqrt(a)){
+    if (b*b==a){
         printf("Yes");
     }
     else{
