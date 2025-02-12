@@ -13,6 +13,9 @@ int main(){
     }
     for(int z=0;z<=a-2;z++){
         for(int b=-1;b<z;b++){
+            printf(" ");
+        }
+        for(int w=0;w<=a-(2*i);w++){
             printf("*");
         }
         printf("\n");
