@@ -1,18 +1,28 @@
-// Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int a[3];
-    for(int j=0;j<3;j++){
-        scanf("%d",a[j]);
+    int b;
+    
+    // Taking input correctly
+    for (int j = 0; j < 3; j++) {
+        scanf("%d", &a[j]);
     }
-        int b=a[0];
-    for(int i=0;i<3;i++){
-        if (a[i]>b){
-            b=a[i];
-        }
-        else{
-            continue;
+
+    // Initialize `b` with the first element
+    b = a[0];
+
+    // Finding the largest number
+    for (int i = 0; i < 3; i++) {
+        if (a[i] > b) {
+            b = a[i];
+        } else {
+            continue;  // No parentheses needed
         }
     }
-    return 0; 
+
+    // Print the largest value
+    printf("Largest number: %d\n", b);
+
+    return 0;
 }
