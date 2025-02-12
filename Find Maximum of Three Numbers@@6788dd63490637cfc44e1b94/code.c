@@ -22,7 +22,7 @@ int main() {
     }
 
     // Print the largest value
-    printf("Largest number: %d\n", b);
+    printf("%d\n", b);
 
     return 0;
 }
