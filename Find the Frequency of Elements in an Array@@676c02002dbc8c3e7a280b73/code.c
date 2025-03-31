@@ -16,7 +16,7 @@ for(int j=0;j<n;j++){
             
         }
     }
-printf("%d %d",arr[j],l);
+printf("%d %d\n",arr[j],l);
 }
 return 0;
 }
