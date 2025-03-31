@@ -20,7 +20,7 @@ scanf("%d",&m);
                      m--;
         }
         for(int k=0;k<n;k++){
-            printf("%d",brr[k]);
+            printf("%d\n",brr[k]);
         }
 
     return 0;
