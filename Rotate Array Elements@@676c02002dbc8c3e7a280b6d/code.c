@@ -15,7 +15,7 @@ scanf("%d",&m);
                         brr[j]=arr[n-m];
                        }
                 else{
-                    brr[j]=arr[m];
+                    brr[j]=arr[((-1)*(m))];
                 }
                      m--;
         }
