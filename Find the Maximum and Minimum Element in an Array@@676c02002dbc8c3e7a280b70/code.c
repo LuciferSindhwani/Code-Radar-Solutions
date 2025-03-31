@@ -18,8 +18,8 @@ if(arr[j]<l){
     l=arr[j]; 
 }
     }
-     printf(" %d",l);
-    printf("%d",e);
+     printf("%d",l);
+    printf(" %d",e);
    
     return 0;
 }
