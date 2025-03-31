@@ -17,7 +17,7 @@ scanf("%d",&m);
                 else{
                     brr[j]=arr[((-1)*(n-m))];
                 }
-                     m--;
+                     m++;
         }
         for(int k=0;k<n;k++){
             printf("%d\n",brr[k]);
