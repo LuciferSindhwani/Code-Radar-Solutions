@@ -19,7 +19,7 @@ int main(){
         for(int w=0;w<a-1-z;w++){
             printf("*");
         }
-       for(int w=0;w<a-1-z;w++){
+       for(int w=0;w<a-2-z;w++){
             printf("*");
         }
        
