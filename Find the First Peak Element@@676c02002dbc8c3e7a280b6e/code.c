@@ -13,6 +13,9 @@ int main(){
             m=arr[j];
             break;
         }
+        else if(arr[n]>arr[n-1]){
+            m=arr[n];
+        }
     }}
     else{
         if(arr[0]>arr[1]){
