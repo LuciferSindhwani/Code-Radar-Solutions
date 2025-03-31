@@ -11,12 +11,13 @@ for(int i=0;i<n;i++){
 for(int j=0;j<n;j++){
     l=0;
     for(int k=0;k<n;k++){
-    
-        if(arr[j]==arr[k]){
-            if (arr[j]==-1){
+        if (arr[j]==-1){
                 continue;
             }
-            else{
+    else{
+        if(arr[j]==arr[k]){
+            
+            
             l++;
             arr[k]=-1;}
         }
