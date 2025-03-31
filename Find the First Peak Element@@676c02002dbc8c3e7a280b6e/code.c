@@ -13,8 +13,8 @@ int main(){
             m=arr[j];
             break;
         }
-        else if(arr[n]>arr[n-1]){
-            m=arr[n];
+        else if(arr[n-1]>arr[n-2]){
+            m=arr[n-1];
             break;
         }
     }}
