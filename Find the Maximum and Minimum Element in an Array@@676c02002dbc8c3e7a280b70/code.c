@@ -13,7 +13,7 @@ if(arr[j]>e){
     e=arr[j]; 
 }
     }
-    or(int j=0;j<n;j++){
+    for(int j=0;j<n;j++){
 if(arr[j]<e){
     e=arr[j]; 
 }
