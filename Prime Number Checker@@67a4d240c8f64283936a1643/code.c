@@ -7,5 +7,5 @@ for(int i;i<num;i++){
         break;
     }
 }
-return (a);
+printf("%d",a);
 }
