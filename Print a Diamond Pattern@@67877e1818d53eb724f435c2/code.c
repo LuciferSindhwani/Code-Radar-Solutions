@@ -12,15 +12,17 @@ int main(){
     //     printf("\n");
     // }
     for(int z=0;z<a-1;z++){
-        for(int w=0;w<a-1-z;w++){
+       
+        for(int h=0;h<=z;h++){
             printf(" ");
         }
-        for(int h=0;h<=z;h++){
+        for(int w=0;w<a-1-z;w++){
             printf("*");
         }
-        for(int l=0;l<z;l++){
+       for(int w=0;w<a-1-z;w++){
             printf("*");
         }
+       
         printf("\n");
     }
 }
