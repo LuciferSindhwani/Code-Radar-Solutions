@@ -11,11 +11,11 @@ scanf("%d",&m);
     
         
             for(int j=0;j<n;j++){
-                if(m>=0){
+                if(m>0){
                         brr[j]=arr[n-m];
                        }
                 else{
-                    brr[j]=arr[((-1)*(n-m))];
+                    brr[j]=arr[m];
                 }
                      m--;
         }
