@@ -13,6 +13,9 @@ int main(){
     // }
     for(int z=0;z<a-1;z++){
         for(int w=0;w<a-1-z;w++){
+            printf(" ");
+        }
+        for(int h=0;h<z;h++){
             printf("*");
         }
         printf("\n");
