@@ -15,7 +15,7 @@ int main(){
         for(int w=0;w<a-1-z;w++){
             printf(" ");
         }
-        for(int h=0;h<z;h++){
+        for(int h=0;h<=z;h++){
             printf("*");
         }
         printf("\n");
