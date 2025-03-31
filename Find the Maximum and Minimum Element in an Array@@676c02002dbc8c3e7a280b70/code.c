@@ -14,9 +14,11 @@ if(arr[j]>e){
 }
     }
     for(int j=0;j<n;j++){
-if(arr[j]<e){
+if(arr[j]<l){
     l=arr[j]; 
 }
     }
+    printf("%d",e);
+    printf("%d",l);
     return 0;
 }
