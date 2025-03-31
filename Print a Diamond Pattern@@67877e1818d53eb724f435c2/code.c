@@ -18,6 +18,9 @@ int main(){
         for(int h=0;h<=z;h++){
             printf("*");
         }
+        for(int l=0;l<z;l++){
+            printf("*");
+        }
         printf("\n");
     }
 }
