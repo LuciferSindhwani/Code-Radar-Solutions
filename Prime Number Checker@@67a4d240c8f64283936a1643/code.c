@@ -6,6 +6,5 @@ for(int i=1;i<num;i++){
         a=0;
         break;
     }
-}
-printf("%d",a);
+}return (a);
 }
