@@ -21,7 +21,7 @@ scanf("%d",&m);
                      m--;
         }
         for(int k=0;k<n;k++){
-            printf("%d\n",brr[k]);
+            printf("%d ",brr[k]);
         }
 
     return 0;
